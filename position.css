@@ -1,0 +1,44 @@
+.container{
+    margin-left: 40%;
+    width: 400px;
+    border: 3px solid lightseagreen;
+    height: 1500px;
+}
+
+
+.box{
+    width: 200px;
+    height: 100px;
+}
+.relative1{
+    width: 300px !important;
+    height: 200px !important;
+    border: 2px solid lightgray;
+    position: relative;
+}
+.static{
+    background-color: lightcoral;
+    position: static;
+}
+.relative{
+    background-color: lightgreen;
+    position: relative;
+}
+.fixed{
+    background-color: lightpink;
+    position: fixed;
+}
+
+.sticky{
+    background-color: lightsalmon;
+    position: sticky;
+    top: 0px;
+}
+.absolute{
+    width: 50px !important;
+    height: 50px !important;
+    position: absolute;
+    background-color: limegreen;
+    left: 50px;
+    top: 20px;
+}
